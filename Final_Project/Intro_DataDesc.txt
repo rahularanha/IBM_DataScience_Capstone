@@ -1,0 +1,22 @@
+Neighborhood clustering and recommendation system - Mumbai
+
+A. Introduction
+
+A.1. Description & Discussion of the Background
+
+Mumbai, also called Bombay, is the capital city of the state of Maharashtra in India, and it's the most populous city in India. As the 4th most populous city in the world and one of the populous urban regions in the world, Mumbai has a metro population of about {pop} in 2019. The most recent census was conducted in India during 2011, which put Mumbai's Urban Agglomeration at 20,748,395, while the city itself was recorded at 12,478,447. Mumbai's urban population is estimated to be over 22 million, and the densely populated city is the largest in India in terms of population, trade activity and business. The metropolitan area has experienced an explosion in growth over the past 20 years, a common occurrence with metropolitan areas in India. The population of Mumbai has more than doubled since 1991, when the census showed that there were 9.9 million people living in the area. 
+
+http://worldpopulationreview.com/world-cities/mumbai-population/
+
+The rapid population growth is attributed to migration from other regions in the country, with migrants seeking business and employment opportunities. On an average 25000 person come to Mumbai daily. The migrating population is often oblivious of the rent and facilities across neighborhoods in Mumbai. We can use data to build a system to :-
+1. show the property prices in form of a Heatmap
+2. cluster similar neighbourhoods and analyse the types of neighbourhoods in the city
+3. Build a Recommender system to recommend Neighbourhoods to a new-comer in the city based on his/her requirements such as type of house, budget, and life-style.
+
+
+A.2. Data Description
+
+To build the system I have used the below data:
+    • Property rates are scrapped from 99acres.com. 99Acres is an Indian real estate database website founded in 2005.
+    • Nominatim API to get coordinates of neighbourhoods under analysis.
+    • Four Square API to get the details and types of venues in the vicinity of a neighbourhood.
